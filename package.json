@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "postinstall": "husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "prepublish": "tsc",
